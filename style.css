@@ -1,0 +1,44 @@
+body {
+  font-size: 15px; /* Bootstrap suele usar 16px, aquí lo bajamos 1px */
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.navbar {
+  background-color: #637a92;
+}
+.navbar a {
+  color: rgb(9, 160, 206) !important;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  transform: scale(1.02); /* se agranda un poquito */
+  transition: transform 0.2s ease;
+}
+button:hover {
+  opacity: 0.9;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
